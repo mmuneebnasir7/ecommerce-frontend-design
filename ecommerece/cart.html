@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-commerce Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <!-- ✅ Navigation Bar -->
+  <header>
+    <!-- Top Navigation -->
+    <div class="top-nav">
+      <!-- Logo -->
+      <div class="logo">
+        <img src="assets/logo.png" alt="Brand Logo" class="logo-img">
+      </div>
+      <div class="nav-icons">
+        <div class="icon">
+          <img src="assets/Profile.png" alt="Profile">
+          <span>Profile</span>
+        </div>
+        <div class="icon">
+          <img src="assets/Message.png" alt="Message">
+          <span>Message</span>
+        </div>
+        <div class="icon">
+          <img src="assets/Orders.png" alt="Orders">
+          <span>Orders</span>
+        </div>
+        <div class="icon">
+          <img src="assets/Cart.png" alt="My Cart">
+          <span>My Cart</span>
+        </div>
+      </div>
+    </div>
+  </header>
+    <!-- Cart Section -->
+<div class="cart-container">
+    <h3>My cart </h3>
+
+    <!-- Cart Items -->
+    <div class="cart-items">
+        <!-- Single Cart Item -->
+        <div class="cart-item">
+            <img src="assets/tshirttt.png" alt="T-shirt">
+            <div class="item-info">
+                <p class="item-title">T-shirts with multiple colors, for men and lady</p>
+                <p class="item-details">Size: medium, Color: blue, Material: Plastic</p>
+                <p class="seller">Seller: Artel Market</p>
+                <div class="item-actions">
+                    <button class="btn-remove">Remove</button>
+                    <button class="btn-save">Save for later</button>
+                </div>
+            </div>
+            <div class="item-price">
+                <p>$78.99</p>
+                <select>
+                    <option>Qty: 1</option>
+                    <option>Qty: 3</option>
+                    <option>Qty: 9</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Repeat for more products -->
+        <div class="cart-item">
+            <img src="assets/shirt4.png" alt="Bag">
+            <div class="item-info">
+                <p class="item-title">T-shirts with multiple colors, for men and lady</p>
+                <p class="item-details">Size: medium, Color: blue, Material: Plastic</p>
+                <p class="seller">Seller: Best Factory LLC</p>
+                <div class="item-actions">
+                    <button class="btn-remove">Remove</button>
+                    <button class="btn-save">Save for later</button>
+                </div>
+            </div>
+            <div class="item-price">
+                <p>$39.00</p>
+                <select>
+                    <option>Qty: 1</option>
+                    <option>Qty: 3</option>
+                    <option>Qty: 5</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back & Remove Buttons -->
+    <div class="cart-footer">
+        <button class="btn-back">← Back to shop</button>
+        <button class="btn-remove-all">Remove all</button>
+    </div>
+
+    <!-- Checkout Summary -->
+    <div class="checkout-summary">
+        <h3>Have a coupon?</h3>
+        <input type="text" placeholder="Add coupon">
+        <button class="btn-apply">Apply</button>
+        <div class="summary-details">
+            <p>Subtotal: <span>$1403.97</span></p>
+            <p>Discount: <span class="discount">- $60.00</span></p>
+            <p>Tax: <span class="tax">+ $14.00</span></p>
+            <hr>
+            <p class="total">Total: <span>$1357.97</span></p>
+        </div>
+        <button class="btn-checkout">Checkout</button>
+        <div class="payment-icons">
+            <img src="assets/visa.png" alt="Visa">
+            <img src="assets/master.png" alt="MasterCard">
+
+        </div>
+    </div>
+</div>
+
+<!-- Saved for Later -->
+<div class="saved-items">
+    <h3>Saved for later</h3>
+    <div class="saved-grid">
+        <div class="saved-item">
+            <img src="assets/camera.png" alt="">
+            <p>$99.50</p>
+            <p>GoPro HERO6 4K Action Camera - Black</p>
+            <button class="btn-move">Move to cart</button>
+        </div>
+        <div class="saved-item">
+            <img src="assets/cam.png" alt="">
+            <p>$99.50</p>
+            <p>GoPro HERO6 4K Action Camera - Black</p>
+            <button class="btn-move">Move to cart</button>
+        </div>
+        <div class="saved-item">
+            <img src="assets/bag.png" alt="">
+            <p>$99.50</p>
+            <p>College Bag - Black</p>
+            <button class="btn-move">Move to cart</button>
+        </div>
+        <div class="saved-item">
+            <img src="assets/phone2.png" alt="">
+            <p>$99.50</p>
+            <p>Iphone11 - Black</p>
+            <button class="btn-move">Move to cart</button>
+        </div>
+    </div>
+</div>
+<div class="bottom-banner">
+    <p><b>Super discount on more than 100 USD</b></p>
+    <p>Have you ever finally just write dummy info</p>
+    <button class="btn-primary">Shop now</button>
+</div>
+<!-- ✅ Footer Section -->
+<footer class="footer-section">
+    <!-- Links -->
+    <div class="footer-links">
+      <div>
+        <h4>About</h4>
+        <p>About Us</p>
+        <p>Find store</p>
+        <p>Categories</p>
+        <p>Blogs</p>
+      </div>
+      <div>
+        <h4>Partnership</h4>
+        <p>About Us</p>
+        <p>Find store</p>
+        <p>Categories</p>
+        <p>Blogs</p>
+      </div>
+      <div>
+        <h4>Information</h4>
+        <p>Help Center</p>
+        <p>Money Refund</p>
+        <p>Shipping</p>
+        <p>Contact us</p>
+      </div>
+      <div>
+        <h4>For users</h4>
+        <p>Login</p>
+        <p>Register</p>
+        <p>Settings</p>
+        <p>My Orders</p>
+      </div>
+    </div>
+
+    <!-- App Download -->
+    <div class="footer-apps">
+      <h4>Get app</h4>
+      <img src="assets/appstore.png" alt="App Store" style="width:120px;">
+      <img src="assets/google.png" alt="Google Play" style="width:120px;">
+    </div>
+  </div>
+
+  <!-- Bottom -->
+  <div class="footer-bottom">
+    <p>© 2023 Ecommerce.</p>
+    <div class="language">
+      <img src="assets/flag3.png" alt="English" style="width:20px;"> English
+    </div>
+  </div>
+</footer>
+</body>
+</html>
